@@ -1,5 +1,7 @@
 # 클로저 관련 메모들
 
+[클로저 닥스 - https://clojuredocs.org/](https://clojuredocs.org/)
+
 ## 세팅
 
 1. 자바 런타임 설치.
@@ -81,6 +83,25 @@ lein run # main 함수 실행
 ![데이타 타입들](imgs/data_types.jpg)
 
 ## 모든 변수는 Immutable 이다.
+
+## SET
+
+- Set of different types of values
+- 중복이 안됨.
+
+```clojure
+#{}
+#{1 42 1.5 "PET" `CAT}
+```
+
+## Maps
+
+- key-value pair data structure
+
+```clojure
+{:key1 value1 :key2 value2}
+```
+
 
 ## Operators
 
